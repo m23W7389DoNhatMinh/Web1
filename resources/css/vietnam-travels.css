@@ -1,0 +1,163 @@
+/*-------------------------------------------------------------------*/
+/*BASIC SETUP*/
+/*-------------------------------------------------------------------*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background: #17a2b8;
+  color: white;
+  font-family: "Open Sans", "Roboto", "Lato", "Arial", sans-serif;
+  font-size: 100%;
+  font-weight: 300;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+}
+
+.topic {
+  color: #ffbf00;
+  font-size: 2.5rem;
+  margin-top: 10px;
+  padding: 20px 0px;
+}
+
+section span {
+  display: block;
+  margin-top: -10px;
+  padding-bottom: 10px;
+}
+
+#footer-link:hover {
+  font-size: 1.3rem;
+  color: #e2aa03;
+  text-decoration: underline;
+}
+
+/*======== navigation bar ========*/
+
+.navbar {
+  background-color: rgb(0 0 0 / 90%);
+  color: white;
+}
+
+.text-info {
+  color: white !important;
+}
+
+.navbar a {
+  font-size: 1.4rem;
+  font-family: "Roboto", "Lato";
+  font-weight: 300;
+}
+.intro-img {
+  width: 100%;
+}
+
+.history {
+  width: 90%;
+  font-size: 1.3rem;
+}
+
+.history > div > h3 {
+  color: gold;
+}
+
+.learn-more {
+  background: gold;
+  color: white;
+  font-weight: 500;
+  text-shadow: 1px 1px #acacac;
+  border: 0;
+}
+
+.card-section {
+  background: white;
+  min-width: 340px;
+  padding-bottom: 20px;
+}
+
+.card-img-top {
+  height: 250px;
+}
+
+.card-body {
+  background: rgba(249, 249, 249, 0.5);
+  color: #080707;
+}
+
+.card-width {
+  width: 21rem !important;
+  border-radius: 0px;
+}
+
+.card-img-top {
+  border-radius: 0px;
+}
+
+.img-thumbnail {
+  margin-bottom: 30px;
+  border-radius: 0px;
+  background: #efefef;
+}
+
+.guide-header {
+  color: #fcd31e;
+  text-shadow: 1px 1px #acacac;
+}
+
+.guide-section {
+  margin-top: 100px;
+}
+
+.carousel {
+  max-width: 600px;
+}
+
+.carousel-caption h3 {
+  background: rgba(252, 211, 30, .9);
+  padding:0 3px;
+}
+
+.portrait {
+  background: white;
+}
+
+.guidecard {
+  border: 10px solid #efefef;
+  color: #000000;
+  font-weight: 300;
+  background: white;
+}
+
+.tour-text {
+  height: 100px;
+}
+
+.tour-title {
+  color: #0dad9d;
+}
+
+footer {
+  font-weight: 300;
+}
+
+.social-links li {
+  display: inline;
+  font-size: 1.8rem;
+  list-style: none;
+  margin-left: 20px;
+}
+
+.text-info {
+  font-family: 'Dancing Script', cursive;
+}
+
+a.text-info:hover, a.text-info:focus {
+  color: #ffc107 !important;
+}
