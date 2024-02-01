@@ -4,8 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="author" content="Nguyen Nhat Minh">
-    <meta name="description" content="A short travel guide of Vietnam.  Discover the country's most famous cities and cuisines.">
+    <meta name="author" content="Do Nhat Minh">
+    <meta name="description"
+        content="A short travel guide of Vietnam.  Discover the country's most famous cities and cuisines.">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans:300,400,700|Roboto:300,400,700&display=swap"
@@ -19,6 +20,19 @@
     <title>Vietnam Travels - Known as one of Asia's best destinations.</title>
     <link rel="icon" type="image/x-icon" href="./resources/favicons/favicon.png">
     <meta name="theme-color" content="#ffffff">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+    <script src="resources/js/script.js"></script>
 </head>
 
 <body>
@@ -26,26 +40,28 @@
         <div class="fixed-top text-left">
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav mr-auto" style="display: flex; justify-content: space-between; width: 100%;">
                         <li class="nav-item active">
                             <a class="nav-link text-info" href="index.html"><strong>VIETNAM
                                     TRAVELS</strong></a>
                         </li>
-                        <li class="nav-item active">
-                            <a class="nav-link text-info js--scroll-to-destinations" href="#">Destinations</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link text-info js--scroll-to-cuisines" href="#">Cuisines</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link text-info js--scroll-to-city-guide" href="#">City Guide</a>
-                        </li>
+                        <div style="display: flex;">
+                            <li class="nav-item active">
+                                <a class="nav-link text-info js--scroll-to-destinations" href="#">Destinations</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-info js--scroll-to-cuisines" href="#">Cuisines</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link text-info js--scroll-to-city-guide" href="#">City Guide</a>
+                            </li>
+                        </div>
                     </ul>
                 </div>
             </nav>
         </div>
         <section class="intro">
-            <img class="intro-img" src="./resources/img/girl-onboat-splash.jpg" alt="">
+            <img class="intro-img" src="./resources/img/landing-img.jpeg" alt="">
         </section>
     </header>
     <main>
@@ -54,25 +70,29 @@
                 <h2 class=" topic d-flex justify-content-center mt-4 mb-0">A Nation Rich in Traditions</h2>
                 <div class="mx-auto">
                     <p>
-                        A land of natural beauty and cultural complexities, of expanding metropolitans and rural ethnic villages, Vietnam is both exotic and familiar.  
+                        A land of natural beauty and cultural complexities, of expanding metropolitans and rural ethnic
+                        villages, Vietnam is both exotic and familiar.
                     </p>
                     <h3 class="d-flex justify-content-center mt-4 mb-3">Sensory Overload</h3>
                     <p>
-                        Unforgettable experiences are everywhere in Vietnam. 
-                        
-                        Theres the awe: the limestone island structures of Halong Bay.  
-                        
-                        The ridiculous: the number of motor bikes zooming by in an endless sea of lights and honk of horns as pedestrians manage to cross a street without these bikes even stopping.  
-                        
-                        The inspirational: witnessing the work ethics and entrepreneurship of the people. 
-                        
-                        The comical: mopeds driving down a street with oversized items that barely fit on the back passenger seat.  
-                        
-                        And the contemplative: experiencing the kindness and approachability of the people throughout the country be it in the big cities or in the small villages.  
+                        Unforgettable experiences are everywhere in Vietnam.
+
+                        There’s the awe: the limestone island structures of Halong Bay.
+
+                        The ridiculous: the number of motor bikes zooming by in an endless sea of lights and honk of
+                        horns as pedestrians manage to cross a street without these bikes even stopping.
+
+                        The inspirational: witnessing the work ethics and entrepreneurship of the people.
+
+                        The comical: mopeds driving down a street with oversized items that barely fit on the back
+                        passenger seat.
+
+                        And the contemplative: experiencing the kindness and approachability of the people throughout
+                        the country be it in the big cities or in the small villages.
                     </p>
                 </div>
-                <button class="btn btn-warning mx-auto d-flex justify-content-center mb-4 learn-more" type="button" id="learn-more-btn"
-                    data-toggle="collapse" data-target="#collapse-bio" aria-expanded="false"
+                <button class="btn btn-warning mx-auto d-flex justify-content-center mb-4 learn-more" type="button"
+                    id="learn-more-btn" data-toggle="collapse" data-target="#collapse-bio" aria-expanded="false"
                     aria-controls="collapse-bio">Learn More</button>
                 <div class="collapse mx-auto" id="collapse-bio">
                     <h3 class="d-flex justify-content-center mt-4- mb-3">History and Culture</h3>
@@ -138,8 +158,7 @@
             <h2 class="d-flex justify-content-center topic">Destinations</h2>
             <div class="card-columns d-flex flex-wrap justify-content-center mx-lg-5">
                 <div class="card-width card mx-s-1 mx-lg-2">
-                    <a href="#hanoi"><img class="card-img-top" src="resources/img/hanoi.jpg"
-                            alt="Hà Nội"></a>
+                    <a href="#hanoi"><img class="card-img-top" src="resources/img/hanoi.jpg" alt="Hà Nội"></a>
                     <div class="card-body">
                         <a href="#hanoi">
                             <h5 class="card-title">Hanoi</h5>
@@ -151,8 +170,7 @@
                     </div>
                 </div>
                 <div class="card-width card mx-s-1 mx-lg-2">
-                    <a href="#hcm"><img class="card-img-top" src="resources/img/hcm.jpg"
-                            alt="Hồ Chí Minh"></a>
+                    <a href="#hcm"><img class="card-img-top" src="resources/img/hcm.jpg" alt="Hồ Chí Minh"></a>
                     <div class="card-body">
                         <a href="#hcm">
                             <h5 class="card-title">Ho Chi Minh City</h5>
@@ -166,8 +184,7 @@
                     </div>
                 </div>
                 <div class="card-width card mx-s-1 mx-lg-2">
-                    <a href="#hue"><img class="card-img-top" src="resources/img/hue.jpg"
-                            alt="Huế"></a>
+                    <a href="#hue"><img class="card-img-top" src="resources/img/hue.jpg" alt="Huế"></a>
                     <div class="card-body">
                         <a href="#hue">
                             <h5 class="card-title">Hue</h5>
@@ -179,8 +196,7 @@
                     </div>
                 </div>
                 <div class="card-width card mx-s-1 mx-lg-2">
-                    <a href="#halong"><img class="card-img-top"
-                            src="resources/img/halongbay.jpg" alt="Hạ Long"></a>
+                    <a href="#halong"><img class="card-img-top" src="resources/img/halongbay.jpg" alt="Hạ Long"></a>
                     <div class="card-body">
                         <a href="#halong">
                             <h5 class="card-title">Halong Bay</h5>
@@ -193,8 +209,7 @@
                     </div>
                 </div>
                 <div class="card-width card mx-s-1 mx-lg-2">
-                    <a href="#sapa"><img class="card-img-top" src="resources/img/sapa.jpg"
-                            alt="Sa Pa"></a>
+                    <a href="#sapa"><img class="card-img-top" src="resources/img/sapa.jpg" alt="Sa Pa"></a>
                     <div class="card-body">
                         <a href="#sapa">
                             <h5 class="card-title">Sapa</h5>
@@ -206,8 +221,7 @@
                     </div>
                 </div>
                 <div class="card-width card mx-s-1 mx-lg-2">
-                    <a href="#phuquoc"><img class="card-img-top"
-                            src="resources/img/phuquoc.jpg" alt="Phú Quốc"></a>
+                    <a href="#phuquoc"><img class="card-img-top" src="resources/img/phuquoc.jpg" alt="Phú Quốc"></a>
                     <div class="card-body">
                         <a href="#phuquoc">
                             <h5 class="card-title">Phu Quoc</h5>
@@ -731,33 +745,37 @@
             </div>
         </section>
     </main>
-    <footer class="pt-4">
-        <div class="row">
-            <span class="col-lg-3 col-sm-1"></span>
-            <ul class="social-links col-lg-3 col-sm-5 text-center">
-                <li><i class="fab fa-facebook-f"></i></li>
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-instagram"></i></li>
-                <li><i class="fab fa-google-plus-g"></i></li>
-            </ul>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__item">
+                <h3 class="footer__form-name">Vietnam Travels</h3>
+                <span class="footer__info">Explore -</span>
+                <span class="footer__info">Dream</span>
+                <h4 class="footer__name"><a href="mailto: nhatminh240nl@gmail.com">nhatminh240nl@gmail.com</a></h4>
+                <h4 class="footer__name">(+81)7084651316</h4>
+            </div>
+            <div class="footer__item">
+                <h3 class="footer__form-name">Follow us</h3>
+                <ul class="footer__lists">
+                    <li class="footer__list"><a href="https://www.facebook.com/nhatminh2420" class="footer__links"><i
+                                class=" fab fa-facebook"></i>&emsp;Facebook</a></li>
+                    <li class="footer__list"><a href="#twitter" class="footer__links"><i
+                                class=" fab fa-twitter"></i>&emsp;Twitter</a></li>
+                    <li class="footer__list"><a href="#instagram" class="footer__links"><i
+                                class=" fab fa-instagram"></i>&emsp;Instagram</a></li>
+                    <li class="footer__list"><a href="#youtube" class="footer__links"><i
+                                class=" fab fa-youtube"></i>&emsp;Youtube</a></li>
+                </ul>
+            </div>
+            <div class="footer__item">
+                <h3 class="footer__form-name">Contact Us</h3>
+                <p class="footer__form-note">Receive new travel stories from Vietnam once a month in your inbox.</p>
+                <input type="text" class="footer__form-input" placeholder="Enter your name:"> <br>
+                <input type="email" class="footer__form-input" placeholder="Enter your email:">
+                <button class="footer__form-btn">Send</button>
+            </div>
         </div>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <!--jQuery files-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="vendors/js/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-    <!--My JS code-->
-    <script src="resources/js/script.js"></script>
 </body>
 
 </html>
